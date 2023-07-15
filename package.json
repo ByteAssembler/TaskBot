@@ -1,0 +1,19 @@
+{
+  "name": "taskbot",
+  "description": "AM - The AutoMation TaskBot - Completed autonomous arebit",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "ts-node src/app.ts"
+  },
+  "keywords": [],
+  "author": "ByteAssembler",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "papaparse": "^5.4.1",
+    "puppeteer-core": "^20.8.2"
+  }
+}
