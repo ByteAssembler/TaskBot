@@ -1,5 +1,5 @@
 import type { Page } from "puppeteer-core";
-import { elemFirst } from "$taskbot/utils";
+import { elemFirst } from "../utils";
 
 // username?: string, 
 export async function authLogin(page: Page, email?: string, password?: string) {

@@ -1,5 +1,5 @@
-import { run } from "$taskbot";
+import { run } from "./taskbot";
 
-run(async (browser, page) => {
+run("https://www.iana.org/", async (browser, page) => {
 
 });
